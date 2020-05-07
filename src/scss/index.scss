@@ -1,0 +1,15 @@
+// global
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "utils";
+@import "fonts";
+@import "animations";
+
+// blocks
+@import "blocks/header";
+@import "blocks/footer";
+
+// partials
+@import "partials/burger";

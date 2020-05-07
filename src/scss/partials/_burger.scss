@@ -1,0 +1,41 @@
+.burger {
+  z-index: 9999;
+  cursor: pointer;
+
+  &.active {
+    .burger__line {
+      &:nth-child(1) {
+          transform: translateY($transform-y-burger-line) rotate(45deg);
+          background-color: $color-primary;
+      }
+
+      &:nth-child(2) {
+          transform: translateY($transform-y-burger-line) rotate(45deg);
+          opacity: 0;
+      }
+
+      &:nth-child(3) {
+          transform: translateY(-$transform-y-burger-line) rotate(-45deg);
+          background-color: $color-primary;
+      }
+    }
+  }
+
+  &__line {
+    position: relative;
+    background-color: $color-burger;
+    width: $width-burger-line;
+    height: $height-burger-line;
+    border-radius: $radius-burger-line;
+    transition: 240ms;
+
+    &:not(:last-child) {
+      margin-bottom: $margin-burger-line
+    }
+
+    &:nth-child(2) {
+      transition: all 0.2s ease;
+    }
+
+  }
+}
