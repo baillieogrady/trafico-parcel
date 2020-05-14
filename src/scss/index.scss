@@ -7,9 +7,16 @@
 @import "fonts";
 @import "animations";
 
+// vendor
+@import "overrides";
+@import "~bootstrap-4-grid/scss/grid";
+
 // blocks
 @import "blocks/header";
 @import "blocks/footer";
+@import "blocks/hero";
+
 
 // partials
 @import "partials/burger";
+@import "partials/buttons";
