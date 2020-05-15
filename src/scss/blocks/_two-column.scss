@@ -1,0 +1,14 @@
+.two-column {
+    &__quote {
+        background-color: $color-coral;
+        border-left: 10px solid $color-primary;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        p {
+            padding: 1.875rem 2rem 1.875rem 2.81rem;
+        }
+    }
+}
