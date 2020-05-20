@@ -1,3 +1,20 @@
 .overflow-hidden {
     overflow-y: hidden;
 }
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.font-family-dm {
+    font-family: $font-family-heading;
+}
+
+.font-48 {
+    font-size: 3rem;
+    line-height: 1.4;
+}
