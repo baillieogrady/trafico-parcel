@@ -40,11 +40,11 @@ const slider = (function () {
     const sliderActivate = function () {
         // toggle to mobile menu when burger icon is clicked
         content.$slider.slick({
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
-            centerMode: true,
-            centerPadding: '300px',
-            // rtl: false
+            // appendArrows: $('.')
+            // centerMode: true,
+            // centerPadding: '0px',
         });
     }
 
